@@ -14,11 +14,11 @@ pipeline {
             }
         }
 
-        stage('Test phpunit') {
-            steps {
-                sh './vendor/bin/phpunit'
-            }
-        }
+//         stage('Test phpunit') {
+//             steps {
+//                 sh './vendor/bin/phpunit'
+//             }
+//         }
 
         stage('Iint ssh') {
             steps {
